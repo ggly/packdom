@@ -7,7 +7,7 @@ window.dom = {
     },
     each(nodelist,fn){
         for(let i = 0;i < nodelist.length;i++){
-            fn.call(null,nodelist[i])     
+            fn.call(null,nodelist[i])      //这里写成fn(null,nodelist[i])也可以实现效果
         }
     }
 }
